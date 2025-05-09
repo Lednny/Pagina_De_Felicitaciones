@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 1rem;
     background: linear-gradient(2deg, hsl(344, 63%, 66%), #ebd7dd);
     text-align: center;
@@ -63,6 +64,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style:normal;
+    align-items: center;
 }
 
 .video-section h2 {
@@ -102,13 +104,22 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style:normal;
+    align-items: center;
 }
 
 .image-section h2 {
-    font-size: 2rem;
-    margin-bottom: -1rem; 
-    width: 90%;
-    margin: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem;
+    text-align: center;
+    background-color: hsl(344, 63%, 66%);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 20h; 
 }
 
 .image-section img {
