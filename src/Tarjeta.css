@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+  /* HERO */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background: linear-gradient(2deg, hsl(344, 63%, 66%), #ebd7dd);
+    text-align: center;
+}
+
+.hero-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    text-align: center;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-feliz {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #b62222;
+    margin: 0.5rem 0;
+}
+
+.dedicatoria-pequena {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #555;
+    text-align: center;
+}
+
+.scroll-down {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #d6ccd0;
+}
+
+/* VIDEO */
+
+.video-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: hsl(344, 63%, 66%);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: -0.1rem; 
+}
+
+.video-section h2 + p {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.video-container {
+    margin: 2.5rem auto;
+    max-width: 350px;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.dedicatoria {
+    margin-top: -1.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*IMAGES*/
+
+.image-section {
+    padding: 1rem;
+    text-align: center;
+    background-color: hsl(344, 63%, 66%);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.image-section h2 {
+    font-size: 2rem;
+    margin-bottom: -1rem; 
+    width: 90%;
+    margin: 20px;
+}
+
+.image-section img {
+    width: 80%;
+    max-width: 250px;
+    border-radius: 30px;
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.photo1 {
+    border: 3px solid #ffffff; 
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.photo2 {
+    border: 3.5px solid #ffffff; 
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.photo3 {
+    margin-top: 5px;
+    border: 3px solid #ffffff; 
+    width: 90%;
+    transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+    .image-section img {
+        width: 30%; 
+        margin: 20px;
+    }
+
+    .video-container {
+        max-width: 600px; 
+    }
+
+    .hero-text {
+        text-align: center; 
+    }
+}
